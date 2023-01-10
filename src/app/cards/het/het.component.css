@@ -1,0 +1,76 @@
+.card {
+  width: 59mm;
+  height: 45.5mm;
+  border: 0 solid;
+  border-top-left-radius: 6mm;
+  border-top-right-radius: 6mm;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.half {
+  width: 53mm;
+  height: 42.5mm;
+  border-width:1px 1px 0.5px 1px;
+  border-style: solid;
+  border-top-left-radius: 3mm;
+  border-top-right-radius: 3mm;
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  background-color: transparent;
+  position: relative;
+}
+
+.color-container{
+  width: 1.2cm;
+  border-radius: 6mm;
+  border: 0;
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  display: flex;
+}
+
+.color {
+  width: 1.2cm;
+  height: 1.2cm;
+  border-radius: 6mm;
+  border: 0;
+  border-style: solid;
+  background-color: transparent;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.color-image{
+  height: 80%;
+  margin: auto;
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 2mm;
+  padding-left: 1mm;
+  font-size: 8mm;
+  text-shadow:
+     1px -1px 0 #ffffff,
+     0   -1px 0 #ffffff,
+     1px -1px 0 #ffffff,
+     1px  0   0 #ffffff,
+     1px  1px 0 #ffffff,
+     0    1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+    -1px  0   0 #ffffff;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+}

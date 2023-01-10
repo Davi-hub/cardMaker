@@ -1,0 +1,36 @@
+#card {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.card-border {
+  width: 59mm;
+  height: 91mm;
+  border: 1px solid;
+  border-radius: 6mm;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom {
+  transform: rotate(180deg);
+}
+
+h2 {
+  text-align: center;
+  width: 320px;
+  margin: auto;
+}
+
+ul {
+  margin: auto;
+  list-style: decimal;
+  padding: 0 1rem 0 2rem;
+  width: fit-content;
+}
+
+li{
+ margin: 0.5rem;
+}

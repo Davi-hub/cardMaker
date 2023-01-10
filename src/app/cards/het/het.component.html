@@ -1,0 +1,29 @@
+<div class="card">
+  <div class="inner-border">
+    <div class="half">
+      <img class="image" [src]="image.src" alt="" [ngStyle]="{'width': image.width + '%', 'top': image.top + 'px', 'left': image.left + 'px'}">
+      <span class="number">VII</span>
+      <div class="color-container" [ngStyle]="{'top': 8+'mm', 'left': 0, 'height': 24+'mm'}">
+        <div *ngFor="let color of colorsL">
+          <div class="color"
+            [ngStyle]="{
+              'top': color+'mm',
+              'right': 0,
+              'transform': 'scaleX('+ (colorSrc == 'z.png' || colorSrc == 'm.png'? -1:1)+ ') rotate('+ (colorSrc == 'z.png' || colorSrc == 'm.png'? 90:0)+ 'deg)'}">
+            <img class="color-image" [src]="'../../../assets/' + colorSrc">
+          </div>
+        </div>
+      </div>
+      <div class="color-container" [ngStyle]="{'top': 2+'mm', 'right': 0, 'height': 30+'mm'}">
+        <div *ngFor="let color of colorsR">
+          <div class="color" [ngStyle]="{
+            'top': color+'mm',
+            'right': 0,
+            'transform': 'rotate('+ (colorSrc == 'z.png' || colorSrc == 'm.png'? 90:0)+ 'deg)'}">
+            <img class="color-image" [src]="'../../../assets/' + colorSrc">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

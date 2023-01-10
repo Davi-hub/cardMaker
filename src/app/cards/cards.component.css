@@ -1,0 +1,73 @@
+.card {
+  width: 6.3cm;
+  height: 5cm;
+  border: 1px solid;
+  border-bottom: 0;
+  border-top-left-radius: 6mm;
+  border-top-right-radius: 6mm;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.half {
+  width: 5.3cm;
+  height: 4.5cm;
+
+  border-width: 1px;
+  border-top-left-radius: 3mm;
+  border-top-right-radius: 3mm;
+  border-style: solid;
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  width: 150%;
+  background-color: transparent;
+  position: relative;
+  top: -50px;
+  left: 0px;
+}
+
+.color-container{
+  width: 1.2cm;
+  height: 2.4cm;
+  border-radius: 6mm;
+  border: 0;
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  display: flex;
+}
+
+.color {
+  width: 1.2cm;
+  height: 1.2cm;
+  border-radius: 6mm;
+  border: 0;
+  border-style: solid;
+  background-color: transparent;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.color-image{
+  height: 80%;
+  margin: auto;
+  opacity:  100%;
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1mm;
+  font-size: 8mm;
+  text-shadow: 1px 1px 1px #ffffff, -1px 1px 1px #ffffff, -1px 1px 1px #ffffff, -1px -1px 1px #ffffff;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
